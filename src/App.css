@@ -1,0 +1,48 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  width: 690px;
+}
+
+.project > a {
+  text-align: center;
+}
+
+.project-image img {
+  width: 100%;
+}
+
+.project-title {
+  margin-top: -100px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.project-category {
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.navigation-sub {
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
+a.nav-item {
+  margin: 5px;
+  color: #555;
+  font-weight: bold;
+  text-decoration: none;
+}
+a.nav-item:hover {
+  color: #000;
+}
