@@ -17,11 +17,11 @@ function App() {
       <div className="main">
   
         <div className="navigation">
-          <h1 className="site-title">Brendan Lenzner</h1>
+          <Link to="/" className="site-title"><h1>Brendan Lenzner</h1></Link>
           <div className="navigation-sub">
                                           
             <Link to="/" className="nav-item">About</Link>
-            <Link to="/portfolio" className="nav-item">Porfolio</Link>
+            <Link to="/portfolio" className="nav-item">Portfolio</Link>
             <Link to="/contact" className="nav-item">Contact</Link>
   
           </div>
