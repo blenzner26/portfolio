@@ -8,24 +8,15 @@ import Artworks from './Projects/Artworks.js';
 import History from './Projects/History.js';
 import Math from './Projects/Math.js';
 import BPT from './Projects/BPT.js';
+import Header from './Header.js';
+import Footer from './Footer.js';
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
+    <Header/>
       <div className="main">
-  
-        <div className="navigation">
-          <Link to="/" className="site-title"><h1>Brendan Lenzner</h1></Link>
-          <div className="navigation-sub">
-                                          
-            <Link to="/" className="nav-item">About</Link>
-            <Link to="/portfolio" className="nav-item">Portfolio</Link>
-            <Link to="/contact" className="nav-item">Contact</Link>
-  
-          </div>
-        </div>
-        
         <Route exact path="/" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
@@ -35,8 +26,8 @@ function App() {
         <Route path="/artworks-mke" component={Artworks} />
         <Route path="/bpt" component={BPT} />
       </div>
+    <Footer/>
     </BrowserRouter>
   );
 }
- 
 export default App;
