@@ -1,65 +1,47 @@
 import React from 'react';
 import Thumbnail from '../Components/Thumbnail.js';
-import placeholder from '../placeholder.png';
+import uwm from '../imgs/uwm.jpg';
+import artworks from '../imgs/artworks.jpg';
+import bpt from '../imgs/bpt.jpg';
+import undraw_wireframe from '../imgs/undraw_wireframe.svg';
  
 function Portfolio(props) {
   return (
-<div>
+<div className="portfolio-content">
     <h2 className="page-title">Portfolio</h2>
     <div className="portfolio">
-      
         <Thumbnail
-            link="/uwm-global-studies"
-            image= {placeholder}
-            alternate="UWM Global Studies"
-            title="UW-Milwaukee Global Studies"
-            category="WordPress Website"
+            link="/uwm"
+            image= {uwm}
+            alternate="University of Wisconsin-Milwaukee"
+            title="UWM College of Letters and Science"
+            category="Front-End Web Developer"
         />
-        
-        <Thumbnail
-            link="/uwm-history"
-            image= {placeholder}
-            alternate="UWM History"
-            title="UW-Milwaukee History Department"
-            category="WordPress Website"
-        />
+       
         <Thumbnail
             link="/artworks-mke"
-            image= {placeholder}
+            image= {artworks}
             alternate="Artworks for Milwaukee"
             title="Artworks for Milwaukee"
             category="WordPress Website"
         />
         <Thumbnail
             link="/bpt"
-            image= {placeholder}
+            image= {bpt}
             alternate="UWM Behavioral Play Therapy"
             title="UWM Behavioral Play Therapy"
             category="WordPress Theme &amp; Website"
         />
-        
-        <Thumbnail
-            link="/uwm-math"
-            image= {placeholder}
-            alternate="UWM Mathematical Sciences"
-            title="UW-Milwaukee Mathematical Sciences"
-            category="WordPress Website"
-        />
-        <Thumbnail
-            link="/uwm-celtic-studies"
-            image= {placeholder}
-            alternate="UWM Celctic Studies"
-            title="UW-Milwaukee Celtic Studies"
-            category="WordPress Website"
-        />
-        <Thumbnail
+
+       {/*  <Thumbnail
             link="/calculator"
             image= {placeholder}
             alternate="Calculator App"
             title="Calculator App"
             category="React App"
-        />
+        /> */}
     </div>
+    <img src={undraw_wireframe} className="port-img" alt="portfolio graphic"/>
     </div>
   )
 }

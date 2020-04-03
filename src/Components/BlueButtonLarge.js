@@ -8,7 +8,8 @@ const styles = {
     color: '#fff',
     padding: '15px 35px',
     fontWeight: 'bold',
-    fontSize: '1rem'
+    fontSize: '1rem',
+    marginTop: '20px'
   },
 };
 
