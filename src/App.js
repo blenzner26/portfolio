@@ -7,13 +7,13 @@ import BrowserRouterLinks from './BrowserRouterLinks.js';
 import './App.css';
 
 function App() {
-    return ( 
+    return (
         <BrowserRouter >
-        <Header />
-        <div className = "main-content">
-            <BrowserRouterLinks />
-        </div> 
-        <Footer />
+            <Header />
+            <div className="main-content">
+                <BrowserRouterLinks />
+            </div>
+            <Footer />
         </BrowserRouter>
     );
 }

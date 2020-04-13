@@ -12,6 +12,11 @@ p{
     font-size: 1.1rem;
 }
 
+a {
+    color: #1165eb;
+    font-weight: bold;
+}
+
 a:hover{
     color: #ccc;
 }
@@ -59,9 +64,7 @@ a:hover{
 .pos-title{
     text-align: center;
     font-size: 1.6rem;
-    margin-bottom: 50px;
-    border-bottom: 1px solid #999;
-    padding-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 
@@ -84,6 +87,10 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
     background-color: #181818 !important;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.9);
+}
+
 .page-title {
     text-align: center;
     text-transform: uppercase;
@@ -96,7 +103,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
     text-align: center;
 }
 .about{
-    padding-top: 50px;
+    padding-top: 30px;
     min-width: 55%;
 }
 
@@ -114,13 +121,14 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 }
 
 .about-img{
-    margin-top: 110px;
+    margin-top: 45px;
+    margin-bottom: 35px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .about-img > img{
-    width: 60%;
+    width: 45%;
 }
 
 .portfolio {
@@ -182,25 +190,21 @@ a.nav-item:hover {
 }
 
 .footer-content {
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.fas {
-    padding-left: 5px;
-}
-
-.fa-left{
-    padding-right: 10px;
-    font-size: 1.2rem;
+.MuiButton-root:hover{
+    background-color: #1165eb !important;
+    color: #fff !important;
 }
 
 .bl-card{
-    width: 250px;
+    width: 205px;
     border: 1px solid #555;
     box-shadow: 0 0 3px 2px #444;
     background-color: #282828;
-    min-height: 275px;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -219,11 +223,11 @@ a.nav-item:hover {
     background-color: #242424;
 }
 .bl-card-blue{
-    border-top: 15px solid #4064ae;
+    border-top: 15px solid #1165eb;
 }
 
 .bl-card-blue:hover{
-    border-top: 15px solid #39599c;
+    border-top: 15px solid #004CD2;
 }
 
 .bl-card-green{
@@ -319,8 +323,17 @@ a.nav-item:hover {
     .page-title{
         font-size: 1.8rem;
     }
+    .about-title {
+        min-height: 112px;
+    }
     .pos-title{
         font-size: 1.4rem;
+    }
+    .about-img{
+        margin-top: 65px;
+    }
+    .about-img > img{
+        width: 65%;
     }
     .bl-card{
         width: 200px;
