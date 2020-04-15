@@ -7,7 +7,20 @@ import uwm from '../imgs/uwm.jpg';
 import artworks from '../imgs/artworks.jpg';
 import bpt from '../imgs/bpt.jpg';
 import undraw_wireframe from '../imgs/undraw_wireframe.svg';
+import tmi from '../imgs/tmi.jpg';
 
+
+const styles = {
+    hr: {
+      borderColor: '#1165eb',
+      width: '15%',
+      height: '1px',
+      background: '#1165eb',
+      marginTop: '30px',
+    },
+  };
+
+  
 function Portfolio(props) {
     return (
         <div>
@@ -51,14 +64,19 @@ function Portfolio(props) {
                             />
                         </div>
                     </Zoom>
-                    {/*  <Thumbnail
-            link="/calculator"
-            image= {placeholder}
-            alternate="Calculator App"
-            title="Calculator App"
-            category="React App"
-        /> */}
+                    <Zoom in={true} style={{ transitionDelay: true ? '75ms' : '0ms' }}>
+                        <div>
+                            <Thumbnail
+                                link="/tmi"
+                                image= {tmi}
+                                alternate="Trotter Manufacturing"
+                                title="Trotter Manufacturing"
+                                category="WordPress Website"
+                            />
+                        </div>
+                 </Zoom>
                 </div>
+                <hr style={styles.hr} />
                 <img src={undraw_wireframe} className="port-img" alt="portfolio graphic" />
             </div>
         </Fade>

@@ -12,6 +12,10 @@ p{
     font-size: 1.1rem;
 }
 
+img {
+    max-width: 100%;
+}
+
 a {
     color: #1165eb;
     font-weight: bold;
@@ -50,10 +54,6 @@ a:hover{
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
-}
-
-.main > .MuiButton-contained, h1, h2, h3, h4, h5, p, img, a, button{
-    z-index: 1000;
 }
 
 .site-title {
@@ -147,7 +147,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 }
 
 .project-image img {
-    width: 95%;
+    width: 90%;
     border-radius: 5px;
     box-shadow: 0 0 5px 4px #555;
     transition: filter 0.4s;
@@ -170,7 +170,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
     color: #fff;
 }
 .port-img{
-    width:25%;
+    width:20%;
     margin-top: 50px;
 }
 .navigation-sub {
@@ -198,6 +198,10 @@ a.nav-item:hover {
     background-color: #1165eb !important;
     color: #fff !important;
 }
+.blue-button:hover{
+    background-color: transparent !important;
+    color: #fff !important;
+}
 
 .bl-card{
     width: 205px;
@@ -207,7 +211,7 @@ a.nav-item:hover {
     min-height: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
     margin: 20px;
     padding: 20px;
@@ -335,8 +339,20 @@ a.nav-item:hover {
     .about-img > img{
         width: 65%;
     }
+    .port-img{
+        width: 75%;
+    }
     .bl-card{
         width: 200px;
         min-height: 225px;
+    }
+    .main{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .navbar {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }

@@ -6,6 +6,7 @@ import Contact from './Pages/Contact.js';
 import UWM from './Projects/UWM.js';
 import Artworks from './Projects/Artworks.js';
 import BPT from './Projects/BPT.js';
+import TMI from './Projects/TMI.js';
 import NotFound from './Pages/NotFound.js';
 
 class BrowserRouterLinks extends Component {
@@ -19,6 +20,7 @@ class BrowserRouterLinks extends Component {
           <Route path="/uwm" component={UWM} />
           <Route path="/artworks-mke" component={Artworks} />
           <Route path="/bpt" component={BPT} />
+          <Route path="/tmi" component={TMI} />
           <Route component={NotFound} />
         </Switch>
       </div>

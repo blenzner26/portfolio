@@ -1,13 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import BlueButtonLarge from "../Components/BlueButtonLarge.js";
+import BlueButtonLargeN from "../Components/BlueButtonLargeN.js";
 import Chip from '@material-ui/core/Chip';
 import Fade from '@material-ui/core/Fade';
 import ImageRound from "../Components/ImageRound.js";
 import undraw_site_content from '../imgs/undraw_site_content.svg';
-import artworks_square from '../imgs/artworks_square.jpg';
-import artworks_screenshot from '../imgs/artworks_screenshot.png';
-
+import tmi_square from '../imgs/tmi_square.jpg';
+import tmi_screenshot from '../imgs/tmi_screenshot.png';
 
 const styles = {
   hr: {
@@ -28,22 +28,23 @@ const styles = {
   }
 };
 
-function Artworks(props) {
+function TMI(props) {
   return (
     <div>
       <Helmet>
-        <title>ArtWorks for Milwaukee - Portfolio | Brendan Lenzner</title>
+        <title>Trotter Manufacturing - Portfolio | Brendan Lenzner</title>
       </Helmet>
 
       <Fade in={true}>
         <div>
-          <h2 className="page-title">ArtWorks for Milwaukee | nonProf-IT</h2>
+          <h2 className="page-title">Trotter Manufacturing</h2>
           <h3 className="pos-title">WordPress Website Redesign</h3>
-          <ImageRound source={artworks_square} alt="ArtWorks for Milwaukee logo" width="195px" height="195px" />
+          <ImageRound source={tmi_square} alt="Trotter Manufacturing logo" width="195px" height="195px" />
           <hr style={styles.hr} />
           <Chip style={styles.chip} label="WordPress" variant="outlined" /> <Chip style={styles.chip} label="HTML" variant="outlined" /> <Chip style={styles.chip} label="CSS" variant="outlined" /> <Chip style={styles.chip} label="PHP" variant="outlined" /> <Chip style={styles.chip} label="Adobe Photoshop" variant="outlined" /><br />
+          <BlueButtonLargeN href="http://www.trottermfg.com/" buttonText="Visit Website" arrow="right" />
           <br />
-          <img src={artworks_screenshot} width="750px" alt="ArtWorks for Milwaukee website screenshot" /><br />
+          <img src={tmi_screenshot} width="750px" alt="Totter Manufacuring website screenshot" /><br />
           <BlueButtonLarge toLink="/portfolio" buttonText="Back to Portfolio" arrow="left" />
           <hr style={styles.hr} />
           <img src={undraw_site_content} className="port-img" alt="portfolio graphic" />
@@ -53,4 +54,4 @@ function Artworks(props) {
   )
 }
 
-export default Artworks;
+export default TMI;
