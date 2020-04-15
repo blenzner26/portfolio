@@ -6,7 +6,7 @@ import Fade from '@material-ui/core/Fade';
 import ImageRound from "../Components/ImageRound.js";
 import undraw_site_content from '../imgs/undraw_site_content.svg';
 import artworks_square from '../imgs/artworks_square.jpg';
-import artworks_screenshot from '../imgs/artworks_screenshot.png';
+import artworks_screenshot from '../imgs/artworks_screenshot.jpg';
 
 
 const styles = {

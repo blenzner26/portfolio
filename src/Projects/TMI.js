@@ -7,7 +7,7 @@ import Fade from '@material-ui/core/Fade';
 import ImageRound from "../Components/ImageRound.js";
 import undraw_site_content from '../imgs/undraw_site_content.svg';
 import tmi_square from '../imgs/tmi_square.jpg';
-import tmi_screenshot from '../imgs/tmi_screenshot.png';
+import tmi_screenshot from '../imgs/tmi_screenshot.jpg';
 
 const styles = {
   hr: {

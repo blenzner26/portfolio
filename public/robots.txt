@@ -4,3 +4,5 @@ Disallow: /uwm
 Disallow: /bpt
 Disallow: /artworks
 Disallow: /portfolio
+Disallow: /tmi
+Disallow: /contact
