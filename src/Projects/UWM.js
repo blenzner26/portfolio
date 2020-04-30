@@ -54,10 +54,9 @@ function UWM(props) {
           <div className="site-cards">
             <Zoom in={true} style={{ transitionDelay: true ? '50ms' : '0ms' }}><div><Card title="Mathematical Sciences" link="https://uwm.edu/math" classAdd="bl-card-green" /></div></Zoom>
             <Zoom in={true} style={{ transitionDelay: true ? '100ms' : '0ms' }}><div><Card title="History" link="https://uwm.edu/history" classAdd="bl-card-green" /></div></Zoom>
-            <Zoom in={true} style={{ transitionDelay: true ? '150ms' : '0ms' }}><div><Card title="History" link="https://uwm.edu/history" classAdd="bl-card-green" /></div></Zoom>
-            <Zoom in={true} style={{ transitionDelay: true ? '200ms' : '0ms' }}><div><Card title="Sociology" link="https://uwm.edu/sociology" classAdd="bl-card-green" /></div></Zoom>
-            <Zoom in={true} style={{ transitionDelay: true ? '250ms' : '0ms' }}><div><Card title="Chemistry &amp; Biochemistry" link="https://uwm.edu/chemistry" classAdd="bl-card-green" /></div></Zoom>
-            <Zoom in={true} style={{ transitionDelay: true ? '300ms' : '0ms' }}><div><Card title="Biological Sciences" link="https://uwm.edu/biology" classAdd="bl-card-green" /></div></Zoom>
+            <Zoom in={true} style={{ transitionDelay: true ? '150ms' : '0ms' }}><div><Card title="Sociology" link="https://uwm.edu/sociology" classAdd="bl-card-green" /></div></Zoom>
+            <Zoom in={true} style={{ transitionDelay: true ? '200ms' : '0ms' }}><div><Card title="Chemistry &amp; Biochemistry" link="https://uwm.edu/chemistry" classAdd="bl-card-green" /></div></Zoom>
+            <Zoom in={true} style={{ transitionDelay: true ? '250ms' : '0ms' }}><div><Card title="Biological Sciences" link="https://uwm.edu/biology" classAdd="bl-card-green" /></div></Zoom>
           </div>
           <BlueButtonLarge toLink="/portfolio" buttonText="Back to Portfolio" arrow="left" />
           <br />
