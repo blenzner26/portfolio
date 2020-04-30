@@ -8,6 +8,7 @@ import artworks from '../imgs/artworks.jpg';
 import bpt from '../imgs/bpt.jpg';
 import undraw_wireframe from '../imgs/undraw_wireframe.svg';
 import tmi from '../imgs/tmi.jpg';
+import calculator from '../imgs/calculator.jpg';
 
 
 const styles = {
@@ -72,6 +73,17 @@ function Portfolio(props) {
                                 alternate="Trotter Manufacturing"
                                 title="Trotter Manufacturing"
                                 category="WordPress Website"
+                            />
+                        </div>
+                 </Zoom>
+                 <Zoom in={true} style={{ transitionDelay: true ? '75ms' : '0ms' }}>
+                        <div>
+                            <Thumbnail
+                                link="/calculator"
+                                image= {calculator}
+                                alternate="Calculator App"
+                                title="Calculator App"
+                                category="React.js App"
                             />
                         </div>
                  </Zoom>
