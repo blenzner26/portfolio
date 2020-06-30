@@ -42,6 +42,8 @@ function UWM(props) {
           <ImageRound source={uwm_square} alt="UWM logo" width="195px" height="195px" />
           <hr style={styles.hr} />
           <Chip style={styles.chip} label="WordPress" variant="outlined" /> <Chip style={styles.chip} label="HTML" variant="outlined" /> <Chip style={styles.chip} label="CSS" variant="outlined" /> <Chip style={styles.chip} label="SCSS" variant="outlined" /> <Chip style={styles.chip} label="PHP" variant="outlined" /> <Chip style={styles.chip} label="JavaScript" variant="outlined" /> <Chip style={styles.chip} label="Bootstrap" variant="outlined" /> <Chip style={styles.chip} label="Adobe Photoshop" variant="outlined" /> <Chip style={styles.chip} label="Adobe XD" variant="outlined" /> <br />
+          <p>At the College of Letters &amp; Science at UWM, I was responsible for designing and creating several new websites using WordPress, HTML, and CSS as well as redesigning several existing sites. In addition, I was on a team that managed and maintatined over 70 websites for the college, assisting department staff and faculty with their web needs.</p>
+          <hr style={styles.hr} />
           <h4 style={{ ...styles.margTop }}>New Websites</h4>
           <div className="site-cards">
             <Zoom in={true}><div><Card title="Center for Celtic Studies" link="https://uwm.edu/celtic-studies" classAdd="bl-card-blue" /></div></Zoom>

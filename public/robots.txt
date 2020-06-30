@@ -7,3 +7,4 @@ Disallow: /portfolio
 Disallow: /tmi
 Disallow: /contact
 Disallow: /calculator
+Disallow: /skills

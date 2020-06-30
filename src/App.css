@@ -4,7 +4,7 @@ html {
 
 body {
     color: #fefefe;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 p{
@@ -270,6 +270,11 @@ a.nav-item:hover {
     filter: brightness(0.7);
 }
 
+.skills-img img {
+    margin-top: 50px;
+    width: 22%;
+}
+
 .white-hr{
     border-color: #aaa;
     margin-left: auto;
@@ -342,6 +347,10 @@ a.nav-item:hover {
     .port-img{
         width: 75%;
     }
+    .skills-img img {
+        margin-top: 30px;
+        width: 35%;
+    }
     .bl-card{
         width: 200px;
         min-height: 225px;
@@ -355,4 +364,24 @@ a.nav-item:hover {
         margin-left: 5%;
         margin-right: 5%;
     }
+    .makeStyles-bar-1 {
+        margin-top: 0 !important;
+        margin-bottom: 30px;
+    }
+}
+
+.MuiLinearProgress-bar1Determinate {
+    transition: transform 1s ease-in-out !important;
+}
+.html_bar > .MuiLinearProgress-barColorPrimary {
+    background-color: #1F50FF !important;
+}
+.css_bar > .MuiLinearProgress-barColorPrimary {
+    background-color: #41701f !important;
+}
+.js_bar > .MuiLinearProgress-barColorPrimary {
+    background-color: #CF5F0A !important;
+}
+.react_bar > .MuiLinearProgress-barColorPrimary {
+    background-color: #088fa7 !important;
 }

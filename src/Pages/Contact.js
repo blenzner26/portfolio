@@ -30,6 +30,8 @@ function Contact(props) {
       <Fade in={true}>
         <div className="contact-page">
           <h2 className="page-title">Contact</h2>
+          <br />
+          <p>Need a new website or assistance with your current site? Shoot me an email!</p>
           <div className="contact-info">
             <div className="email">
               <div><p><strong>Email</strong></p><a href="mailto:blenzner@brendanlenzner.com"><img src={email} width="85" alt="linkedin logo" /></a></div>
