@@ -9,6 +9,7 @@ import BPT from './Projects/BPT.js';
 import TMI from './Projects/TMI.js';
 import Calculator from './Projects/Calculator.js';
 import NotFound from './Pages/NotFound.js';
+import Skills from './Pages/Skills.js';
 
 class BrowserRouterLinks extends Component {
   render() {
@@ -23,6 +24,7 @@ class BrowserRouterLinks extends Component {
           <Route path="/bpt" component={BPT} />
           <Route path="/tmi" component={TMI} />
           <Route path="/calculator" component={Calculator} />
+          <Route path="/skills" component={Skills} />
           <Route component={NotFound} />
         </Switch>
       </div>
