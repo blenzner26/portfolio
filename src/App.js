@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
 import BrowserRouterLinks from './BrowserRouterLinks.js';
-import Switch from '@material-ui/core/Switch';
+
 import './App.css';
 
 /* var state = {

@@ -192,6 +192,8 @@ a.nav-item:hover {
 .footer-content {
     margin-left: 10%;
     margin-right: 10%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .MuiButton-root:hover{
