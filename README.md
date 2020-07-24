@@ -8,6 +8,7 @@ Perosnal web portfolio site built using React, custom CSS, and some components f
   <li>React</li>
   <li>React Router</li>
   <li>Helmet for React</li>
+  <li>React Typical</li>
   <li>Material UI</li>
   <li>Google Fonts</li>
   </ul>
