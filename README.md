@@ -6,11 +6,11 @@ Perosnal web portfolio site built using React, custom CSS, and some components f
 
 <ul>
   <li>React</li>
-  <li>React Router</li>
-  <li>Helmet for React</li>
-  <li>React Typical</li>
-  <li>Material UI</li>
-  <li>Google Fonts</li>
+  <li><a href="https://reactrouter.com">React Router</a></li>
+  <li><a href="https://www.npmjs.com/package/react-helmet">Helmet for React</a></li>
+  <li><a href="https://www.npmjs.com/package/react-typical">React Typical</a></li>
+  <li><a href="https://material-ui.com">Material UI</a></li>
+  <li><a href="https://fonts.google.com">Google Fonts</a></li>
   </ul>
 
 ## Available Scripts
