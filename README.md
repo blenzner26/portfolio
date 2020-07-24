@@ -1,6 +1,16 @@
 # Personal Portfolio Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Perosnal web portfolio site built using React, custom CSS, and some components from Material UI. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Dependencies
+
+<ul>
+  <li>React</li>
+  <li>React Router</li>
+  <li>Helmet for React</li>
+  <li>Material UI</li>
+  <li>Google Fonts</li>
+  </ul>
 
 ## Available Scripts
 
