@@ -9,8 +9,10 @@ const styles = {
       width: "40px",
       marginRight: "10px",
   }
-}
+};
+
 function Header(props) {
+
   return (
     <div className="header">
       <div className="navigation">

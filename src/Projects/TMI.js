@@ -11,21 +11,21 @@ import tmi_screenshot from '../imgs/tmi_screenshot.jpg';
 
 const styles = {
   hr: {
-    borderColor: '#1165eb',
+    borderColor: '#1F50FF',
     width: '15%',
     height: '1px',
-    background: '#1165eb',
+    background: '#1F50FF',
     marginTop: '30px',
   },
   margTop: {
     marginTop: '20px',
   },
   chip: {
-    border: '2px solid rgb(17, 101, 175)',
+    border: '2px solid rgb(31, 80, 255)',
     color: '#ffffff',
     padding: '10px',
     margin: '10px',
-  }
+  },
 };
 
 function TMI(props) {

@@ -13,18 +13,18 @@ const styles = {
         marginTop: "40px",
     },
     hr: {
-        borderColor: '#1165eb',
+        borderColor: '#1F50FF',
         width: '15%',
         height: '1px',
-        background: '#1165eb',
-        marginTop: '50px',
-    },
-    chip: {
-        border: '2px solid rgb(17, 101, 175)',
+        background: '#1F50FF',
+        marginTop: '30px',
+      },
+      chip: {
+        border: '2px solid rgb(31, 80, 255)',
         color: '#ffffff',
         padding: '10px',
         margin: '10px',
-    }
+      },
 };
 
 function Skills(props) {
@@ -164,7 +164,7 @@ function Skills(props) {
                 <Fade in={true}>
                     <div style={styles.add_skills}>
                         <h3>Additonal Skills</h3>
-                        <Chip style={styles.chip} label="Adobe Photoshop" variant="outlined" /> <Chip style={styles.chip} label="Adobe XD" variant="outlined" /> <Chip style={styles.chip} label="PHP" variant="outlined" /> <Chip style={styles.chip} label="Python" variant="outlined" /> <Chip style={styles.chip} label="SQL" variant="outlined" /> <Chip style={styles.chip} label="Bootstrap" variant="outlined" /> <Chip style={styles.chip} label="Google Analytics" variant="outlined" /> <Chip style={styles.chip} label="Java" variant="outlined" />
+                        <Chip style={styles.chip} label="Adobe Photoshop" variant="outlined" /> <Chip style={styles.chip} label="Adobe XD" variant="outlined" /> <Chip style={styles.chip} label="PHP" variant="outlined" /> <Chip style={styles.chip} label="Python" variant="outlined" /> <Chip style={styles.chip} label="SQL" variant="outlined" /> <Chip style={styles.chip} label="Bootstrap" variant="outlined" /> <Chip style={styles.chip} label="Google Analytics" variant="outlined" /> <Chip style={styles.chip} label="Java" variant="outlined" /> <Chip style={styles.chip} label="Swift" variant="outlined" />
                     </div>
                 </Fade>
             </div>

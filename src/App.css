@@ -89,6 +89,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255,255,255,0.9);
+    letter-spacing: 0.5px;
 }
 
 .page-title {
@@ -147,7 +148,8 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 }
 
 .project-image img {
-    width: 90%;
+    width: 85%;
+    height: auto;
     border-radius: 5px;
     box-shadow: 0 0 5px 4px #555;
     transition: filter 0.4s;
@@ -197,7 +199,7 @@ a.nav-item:hover {
 }
 
 .MuiButton-root:hover{
-    background-color: #1165eb !important;
+    background-color: #1F50FF !important;
     color: #fff !important;
 }
 .blue-button:hover{
@@ -229,19 +231,19 @@ a.nav-item:hover {
     background-color: #242424;
 }
 .bl-card-blue{
-    border-top: 15px solid #1165eb;
+    border-top: 15px solid #1F50FF;
 }
 
 .bl-card-blue:hover{
-    border-top: 15px solid #004CD2;
+    border-top: 15px solid #0637E6;
 }
 
 .bl-card-green{
-    border-top: 15px solid #41701f;
+    border-top: 15px solid #53960B;
 }
 
 .bl-card-green:hover{
-    border-top: 15px solid #3a641b;
+    border-top: 15px solid #3A7D00;
 }
 
 .site-cards {
@@ -328,6 +330,7 @@ a.nav-item:hover {
     .navigation-sub>.nav-item:not(.current-menu-item):hover:before {
         right: 0;
     }
+    
 }
 
 @media screen and (max-width: 767px){
@@ -369,6 +372,9 @@ a.nav-item:hover {
     .makeStyles-bar-1 {
         margin-top: 0 !important;
         margin-bottom: 30px;
+    }
+    .contact-img{
+        width: 40%;
     }
 }
 

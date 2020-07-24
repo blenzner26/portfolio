@@ -1,13 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import BlueButtonLarge from "../Components/BlueButtonLarge.js";
-import BlueButtonLargeN from "../Components/BlueButtonLargeN.js";
 import Chip from '@material-ui/core/Chip';
 import Fade from '@material-ui/core/Fade';
 import ImageRound from "../Components/ImageRound.js";
 import undraw_site_content from '../imgs/undraw_site_content.svg';
 import calculator_square from '../imgs/calculator_square.jpg';
-import calculator_screenshot from '../imgs/calculator_screenshot.png';
+import calculator_screenshot from '../imgs/ios_calc_screenshot.jpg';
 import GitHubBTN from "../Components/GitHubBTN.js";
 
 
@@ -34,20 +33,19 @@ function Artworks(props) {
     return (
         <div>
             <Helmet>
-                <title>Calculator App - Portfolio | Brendan Lenzner</title>
+                <title>iOS Calculator App - Portfolio | Brendan Lenzner</title>
             </Helmet>
 
             <Fade in={true}>
                 <div>
-                    <h2 className="page-title">Calculator App</h2>
-                    <h3 className="pos-title">React.js App</h3>
+                    <h2 className="page-title">iOS Calculator App</h2>
+                    <h3 className="pos-title">iOS Calculator App built using Swift</h3>
                     <ImageRound source={calculator_square} alt="Calculator Icon" width="195px" height="195px" />
                     <hr style={styles.hr} />
-                    <Chip style={styles.chip} label="React.js" variant="outlined" /> <Chip style={styles.chip} label="JavaScript" variant="outlined" /> <Chip style={styles.chip} label="HTML" variant="outlined" /> <Chip style={styles.chip} label="CSS" variant="outlined" /> <br />
-                    <BlueButtonLargeN href="https://calculator.brendanlenzner.com" buttonText="Visit Calculator" arrow="right" /><br />
-                    <GitHubBTN href="https://github.com/blenzner26/calculator-react" buttonText="View code on GitHub" arrow="right" />
+                    <Chip style={styles.chip} label="Swift" variant="outlined" /> <Chip style={styles.chip} label="Swift UI" variant="outlined" /> <Chip style={styles.chip} label="Xcode" variant="outlined" /><br /><br />
+                    <GitHubBTN href="https://github.com/blenzner26/iOS_Calculator" buttonText="View code on GitHub" arrow="right" />
                     <br /><br />
-                    <img src={calculator_screenshot} width="750px" alt="Calculator app screenshot" /><br />
+                    <img src={calculator_screenshot} width="425" alt="iOS calculator app screenshot" /><br />
                     <BlueButtonLarge toLink="/portfolio" buttonText="Back to Portfolio" arrow="left" />
                     <hr style={styles.hr} />
                     <img src={undraw_site_content} className="port-img" alt="portfolio graphic" />

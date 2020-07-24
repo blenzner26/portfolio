@@ -3,14 +3,15 @@ import Button from '@material-ui/core/Button';
 
 const styles = {
   buttonBlue: {
-    backgroundColor: '#1F50FF',
+    backgroundColor: '#53960B',
     border: '1px solid #fff',
     color: '#fff',
-    padding: '15px 35px',
+    padding: '15px 25px',
     fontWeight: 'bold',
-    fontSize: '1rem',
-    marginTop: '30px',
-    marginBottom: '30px',
+    fontSize: '0.95rem',
+    marginTop: '10px',
+    marginBottom: '20px',
+    letterSpacing: '1px',
   },
   arrowLeft: {
     paddingRight: '10px',
@@ -20,7 +21,7 @@ const styles = {
   },
 };
 
-function BlueButtonLargeN(props) {
+function GitHubBTN(props) {
   if (props.arrow === "right") {
     return (
       <Button className="blue-button" variant="contained" style={{ ...styles.buttonBlue }} size="large" href={props.href}>{props.buttonText}<i className="fas fa-arrow-right" style={{ ...styles.arrowRight }}></i></Button>
@@ -39,4 +40,4 @@ function BlueButtonLargeN(props) {
 
 }
 
-export default BlueButtonLargeN;
+export default GitHubBTN;

@@ -7,25 +7,26 @@ import ImageRound from "../Components/ImageRound.js";
 import undraw_site_content from '../imgs/undraw_site_content.svg';
 import uwm_square from '../imgs/uwm_square.jpg';
 import bpt_screenshot from '../imgs/bpt_screenshot.png';
+import GitHubBTN from "../Components/GitHubBTN.js";
 
 
 const styles = {
   hr: {
-    borderColor: '#1165eb',
+    borderColor: '#1F50FF',
     width: '15%',
     height: '1px',
-    background: '#1165eb',
+    background: '#1F50FF',
     marginTop: '30px',
   },
   margTop: {
     marginTop: '20px',
   },
   chip: {
-    border: '2px solid rgb(17, 101, 175)',
+    border: '2px solid rgb(31, 80, 255)',
     color: '#ffffff',
     padding: '10px',
     margin: '10px',
-  }
+  },
 };
 
 function BPT(props) {
@@ -42,8 +43,9 @@ function BPT(props) {
           <ImageRound source={uwm_square} alt="UWM logo" width="195px" height="195px" />
           <hr style={styles.hr} />
           <Chip style={styles.chip} label="WordPress" variant="outlined" /> <Chip style={styles.chip} label="HTML" variant="outlined" /> <Chip style={styles.chip} label="CSS" variant="outlined" /> <Chip style={styles.chip} label="PHP" variant="outlined" /> <Chip style={styles.chip} label="JavaScript" variant="outlined" /> <Chip style={styles.chip} label="Bootstrap" variant="outlined" /><br />
-          <p><em>Note: This website is still in development.</em></p>
           <br />
+          <GitHubBTN href="https://github.com/blenzner26/behavioral-play-therapy-uwm" buttonText="View theme code on GitHub" arrow="right" />
+          <br /><br />
           <img src={bpt_screenshot} width="750px" alt="Behavioral Play Therapy website screenshot" /><br />
           <BlueButtonLarge toLink="/portfolio" buttonText="Back to Portfolio" arrow="left" />
           <hr style={styles.hr} />

@@ -9,17 +9,18 @@ import bpt from '../imgs/bpt.jpg';
 import undraw_wireframe from '../imgs/undraw_wireframe.svg';
 import tmi from '../imgs/tmi.jpg';
 import calculator from '../imgs/calculator.jpg';
+import iosCalc from '../imgs/ios_calc_port.png';
 
 
 const styles = {
     hr: {
-        borderColor: '#1165eb',
-        width: '15%',
-        height: '1px',
-        background: '#1165eb',
-        marginTop: '30px',
+      borderColor: '#1F50FF',
+      width: '15%',
+      height: '1px',
+      background: '#1F50FF',
+      marginTop: '30px',
     },
-};
+  };
 
 
 function Portfolio(props) {
@@ -46,15 +47,26 @@ function Portfolio(props) {
                         <Zoom in={true} style={{ transitionDelay: true ? '75ms' : '0ms' }}>
                             <div>
                                 <Thumbnail
-                                    link="/artworks-mke"
-                                    image={artworks}
-                                    alternate="Artworks for Milwaukee"
-                                    title="Artworks for Milwaukee"
+                                    link="/tmi"
+                                    image={tmi}
+                                    alternate="Trotter Manufacturing"
+                                    title="Trotter Manufacturing"
                                     category="WordPress Website"
                                 />
                             </div>
                         </Zoom>
                         <Zoom in={true} style={{ transitionDelay: true ? '175ms' : '0ms' }}>
+                            <div>
+                                <Thumbnail
+                                    link="/calculator"
+                                    image={calculator}
+                                    alternate="Calculator App"
+                                    title="Calculator App"
+                                    category="React.js App"
+                                />
+                            </div>
+                        </Zoom>
+                        <Zoom in={true}>
                             <div>
                                 <Thumbnail
                                     link="/bpt"
@@ -65,25 +77,25 @@ function Portfolio(props) {
                                 />
                             </div>
                         </Zoom>
-                        <Zoom in={true} style={{ transitionDelay: true ? '275ms' : '0ms' }}>
+                        <Zoom in={true} style={{ transitionDelay: true ? '75ms' : '0ms' }}>
                             <div>
                                 <Thumbnail
-                                    link="/tmi"
-                                    image={tmi}
-                                    alternate="Trotter Manufacturing"
-                                    title="Trotter Manufacturing"
-                                    category="WordPress Website"
+                                    link="/ios-calc"
+                                    image={iosCalc}
+                                    alternate="iOS Calculator App"
+                                    title="iOS Calculator App"
+                                    category="iOS App"
                                 />
                             </div>
                         </Zoom>
-                        <Zoom in={true} style={{ transitionDelay: true ? '375ms' : '0ms' }}>
+                        <Zoom in={true} style={{ transitionDelay: true ? '175ms' : '0ms' }}>
                             <div>
                                 <Thumbnail
-                                    link="/calculator"
-                                    image={calculator}
-                                    alternate="Calculator App"
-                                    title="Calculator App"
-                                    category="React.js App"
+                                    link="/artworks-mke"
+                                    image={artworks}
+                                    alternate="Artworks for Milwaukee"
+                                    title="Artworks for Milwaukee"
+                                    category="WordPress Website"
                                 />
                             </div>
                         </Zoom>
