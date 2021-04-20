@@ -8,3 +8,5 @@ Disallow: /tmi
 Disallow: /contact
 Disallow: /calculator
 Disallow: /skills
+Disallow: /devour
+Disallow: /experience

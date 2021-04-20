@@ -11,6 +11,8 @@ import Calculator from './Projects/Calculator.js';
 import CalculatoriOS from './Projects/CalculatoriOS.js';
 import NotFound from './Pages/NotFound.js';
 import Skills from './Pages/Skills.js';
+import Devour from './Projects/Devour.js';
+import Experience from './Pages/Experience.js';
 
 class BrowserRouterLinks extends Component {
   render() {
@@ -25,8 +27,10 @@ class BrowserRouterLinks extends Component {
           <Route path="/bpt" component={BPT} />
           <Route path="/tmi" component={TMI} />
           <Route path="/ios-calc" component={CalculatoriOS} />
-          <Route path="/calculator" component={Calculator} />
+          <Route path="/calculator" componeDDnt={Calculator} />
+          <Route path="/devour" component={Devour} />
           <Route path="/skills" component={Skills} />
+          <Route path="/experience" component={Experience} />
           <Route component={NotFound} />
         </Switch>
       </div>

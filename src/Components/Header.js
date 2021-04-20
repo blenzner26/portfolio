@@ -23,6 +23,7 @@ function Header(props) {
             <Nav className="mr-auto">
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
+              <Nav.Link as={Link} to="/experience">Experience</Nav.Link>
               <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
               <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             </Nav>

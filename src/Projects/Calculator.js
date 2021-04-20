@@ -23,7 +23,7 @@ const styles = {
       marginTop: '20px',
     },
     chip: {
-      border: '2px solid rgb(31, 80, 255)',
+      border: '2px solid #1F50FF',
       color: '#ffffff',
       padding: '10px',
       margin: '10px',

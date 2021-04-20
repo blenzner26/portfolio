@@ -20,7 +20,7 @@ const styles = {
         marginTop: '30px',
       },
       chip: {
-        border: '2px solid rgb(31, 80, 255)',
+        border: '2px solid #1F50FF',
         color: '#ffffff',
         padding: '10px',
         margin: '10px',
@@ -28,9 +28,7 @@ const styles = {
 };
 
 function Skills(props) {
-
     const [progress_HTML, setProgress] = React.useState(0);
-
     const [progress_wordpress, setProgress3] = React.useState(0);
 
     React.useEffect(() => {
@@ -164,7 +162,7 @@ function Skills(props) {
                 <Fade in={true}>
                     <div style={styles.add_skills}>
                         <h3>Additonal Skills</h3>
-                        <Chip style={styles.chip} label="Adobe Photoshop" variant="outlined" /> <Chip style={styles.chip} label="Adobe XD" variant="outlined" /> <Chip style={styles.chip} label="PHP" variant="outlined" /> <Chip style={styles.chip} label="Python" variant="outlined" /> <Chip style={styles.chip} label="SQL" variant="outlined" /> <Chip style={styles.chip} label="Bootstrap" variant="outlined" /> <Chip style={styles.chip} label="Google Analytics" variant="outlined" /> <Chip style={styles.chip} label="Java" variant="outlined" /> <Chip style={styles.chip} label="Swift" variant="outlined" />
+                        <Chip style={styles.chip} label="Drupal" variant="outlined" /> <Chip style={styles.chip} label="Omeka" variant="outlined" /> <Chip style={styles.chip} label="Adobe Photoshop" variant="outlined" /> <Chip style={styles.chip} label="Adobe XD" variant="outlined" /> <Chip style={styles.chip} label="PHP" variant="outlined" /> <Chip style={styles.chip} label="Python" variant="outlined" /> <Chip style={styles.chip} label="SQL" variant="outlined" /> <Chip style={styles.chip} label="Bootstrap" variant="outlined" /> <Chip style={styles.chip} label="Google Analytics" variant="outlined" /> <Chip style={styles.chip} label="Java" variant="outlined" /> <Chip style={styles.chip} label="Swift" variant="outlined" /> 
                     </div>
                 </Fade>
             </div>
