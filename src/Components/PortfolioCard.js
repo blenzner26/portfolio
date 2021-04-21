@@ -47,7 +47,7 @@ export default function MediaCard(props) {
 
     return (
             <Link to={props.link}>
-                <Card className={classes.root}>
+                <Card className={classes.root + " portfolio-card"}>
                     <CardActionArea>
                         <CardMedia
                             className={classes.media}

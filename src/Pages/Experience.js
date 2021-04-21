@@ -69,10 +69,10 @@ function Experience(props) {
                         iconStyle={{ background: '#1F50FF', color: '#fff' }}
                         icon={<WorkIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">Teaching Assistant | School of Information Studies</h3>
+                        <h3 className="vertical-timeline-element-title">Teaching Assistant</h3>
                         <h4 className="vertical-timeline-element-subtitle">UW-Milwaukee | Milwaukee, WI</h4>
                         <p>
-                            Ethical Hacking, Web App Development, Cisco Networking, Information Security</p>
+                            <strong>School of Information Studies</strong> | Ethical Hacking, Web App Development, Cisco Networking, Information Security</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"

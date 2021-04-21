@@ -426,3 +426,10 @@ h3.vertical-timeline-element-title {
     box-shadow: 0;
     border-bottom: 3px solid #fff;
 }
+
+@media screen and (max-width:475px){
+    .portfolio-card{
+        width: 300px !important;
+    }
+}
+
