@@ -13,17 +13,21 @@ const styles = {
         marginTop: "40px",
     },
     hr: {
-        borderColor: '#1F50FF',
+        borderColor: 'rgb(31, 80, 255)',
         width: '15%',
         height: '1px',
-        background: '#1F50FF',
+        background: 'rgb(31, 80, 255)',
         marginTop: '30px',
       },
       chip: {
-        border: '2px solid #1F50FF',
+        border: '2px solid rgb(31, 80, 255)',
         color: '#ffffff',
         padding: '10px',
         margin: '10px',
+        backgroundColor: 'rgb(31, 80, 255)',
+        fontWeight: '600',
+        letterSpacing: '0.05rem',
+        textTransform: 'uppercase',
       },
 };
 

@@ -12,23 +12,27 @@ import GitHubBTN from "../Components/GitHubBTN.js";
 
 
 const styles = {
-    hr: {
-      borderColor: '#1F50FF',
-      width: '15%',
-      height: '1px',
-      background: '#1F50FF',
-      marginTop: '30px',
-    },
-    margTop: {
-      marginTop: '20px',
-    },
-    chip: {
-      border: '2px solid #1F50FF',
-      color: '#ffffff',
-      padding: '10px',
-      margin: '10px',
-    },
-  };
+  hr: {
+    borderColor: 'rgb(31, 80, 255)',
+    width: '15%',
+    height: '1px',
+    background: 'rgb(31, 80, 255)',
+    marginTop: '30px',
+  },
+  margTop: {
+    marginTop: '20px',
+  },
+  chip: {
+    border: '2px solid rgb(31, 80, 255)',
+    color: '#ffffff',
+    padding: '10px',
+    margin: '10px',
+    backgroundColor: 'rgb(31, 80, 255)',
+    fontWeight: '600',
+    letterSpacing: '0.05rem',
+    textTransform: 'uppercase',
+  },
+};
 
 function Artworks(props) {
     return (
