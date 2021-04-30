@@ -27,7 +27,6 @@ const styles = {
     margin: '10px',
     backgroundColor: 'rgb(31, 80, 255)',
     fontWeight: '600',
-    letterSpacing: '0.05rem',
     textTransform: 'uppercase',
   },
 };
