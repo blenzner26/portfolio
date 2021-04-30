@@ -84,7 +84,7 @@ function Skills(props) {
         const timer = setInterval(() => {
             setProgress4(() => {
 
-                const diff = 60;
+                const diff = 75;
                 return diff;
             });
         }, 400);
@@ -100,7 +100,7 @@ function Skills(props) {
         const timer = setInterval(() => {
             setProgress5(() => {
 
-                const diff = 45;
+                const diff = 70;
                 return diff;
             });
         }, 500);
