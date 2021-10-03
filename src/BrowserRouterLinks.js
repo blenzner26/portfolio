@@ -27,7 +27,7 @@ class BrowserRouterLinks extends Component {
           <Route path="/paradigm" component={Paradigm} />
           <Route path="/tmi" component={TMI} />
           <Route path="/ios-calc" component={CalculatoriOS} />
-          <Route path="/calculator" componeDDnt={Calculator} />
+          <Route path="/calculator" component={Calculator} />
           <Route path="/devour" component={Devour} />
           <Route path="/skills" component={Skills} />
           <Route path="/experience" component={Experience} />
