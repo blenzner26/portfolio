@@ -5,7 +5,7 @@ import About from './Pages/About.js';
 import Contact from './Pages/Contact.js';
 import UWM from './Projects/UWM.js';
 import Artworks from './Projects/Artworks.js';
-import BPT from './Projects/BPT.js';
+import Paradigm from './Projects/Paradigm.js';
 import TMI from './Projects/TMI.js';
 import Calculator from './Projects/Calculator.js';
 import CalculatoriOS from './Projects/CalculatoriOS.js';
@@ -24,7 +24,7 @@ class BrowserRouterLinks extends Component {
           <Route path="/contact" component={Contact} />
           <Route path="/uwm" component={UWM} />
           <Route path="/artworks-mke" component={Artworks} />
-          <Route path="/bpt" component={BPT} />
+          <Route path="/paradigm" component={Paradigm} />
           <Route path="/tmi" component={TMI} />
           <Route path="/ios-calc" component={CalculatoriOS} />
           <Route path="/calculator" componeDDnt={Calculator} />

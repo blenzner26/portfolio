@@ -5,10 +5,8 @@ import Chip from '@material-ui/core/Chip';
 import Fade from '@material-ui/core/Fade';
 import ImageRound from "../Components/ImageRound.js";
 import undraw_site_content from '../imgs/undraw_site_content.svg';
-import uwm_square from '../imgs/uwm_square.jpg';
-import bpt_screenshot from '../imgs/bpt_screenshot.png';
-import GitHubBTN from "../Components/GitHubBTN.js";
-
+import paradigm_square from '../imgs/paradigm_square.jpg';
+import paradigm_screenshot from '../imgs/paradigm-screenshot.png';
 
 const styles = {
   hr: {
@@ -32,24 +30,25 @@ const styles = {
   },
 };
 
-function BPT(props) {
+function Paradigm(props) {
   return (
     <div>
       <Helmet>
-        <title>UWM Behavioral Play Therapy - Portfolio | Brendan Lenzner</title>
+        <title>Paradigm Tech Consulting - Portfolio | Brendan Lenzner</title>
       </Helmet>
 
       <Fade in={true}>
         <div>
-          <h2 className="page-title">UWM Behavioral Play Therapy</h2>
-          <h3 className="pos-title">WordPress Theme &amp; Website</h3>
-          <ImageRound source={uwm_square} alt="UWM logo" width="195px" height="195px" />
+          <h2 className="page-title">Paradigm Tech Consulting</h2>
+          <h3 className="pos-title">WordPress Website</h3>
+          <ImageRound source={paradigm_square} alt="Paradigm Tech Consulting logo" width="195px" height="195px" />
           <hr style={styles.hr} />
-          <Chip style={styles.chip} label="WordPress" variant="outlined" /> <Chip style={styles.chip} label="HTML" variant="outlined" /> <Chip style={styles.chip} label="CSS" variant="outlined" /> <Chip style={styles.chip} label="PHP" variant="outlined" /> <Chip style={styles.chip} label="JavaScript" variant="outlined" /> <Chip style={styles.chip} label="Bootstrap" variant="outlined" /><br />
+          <Chip style={styles.chip} label="WordPress" variant="outlined" /> <Chip style={styles.chip} label="HTML" variant="outlined" /> <Chip style={styles.chip} label="CSS" variant="outlined" /> <Chip style={styles.chip} label="WordPress" variant="outlined" /> <br />
+          <BlueButtonLargeN href="https://www.paradigmtechconsulting.com/" buttonText="Visit Website" arrow="right" />
           <br />
           <GitHubBTN href="https://github.com/blenzner26/behavioral-play-therapy-uwm" buttonText="View theme code on GitHub" arrow="right" />
           <br /><br />
-          <img src={bpt_screenshot} width="750px" alt="Behavioral Play Therapy website screenshot" /><br />
+          <img src={paradigm_screenshot} width="750px" alt="Paradigm Tech Consulting website screenshot" /><br />
           <BlueButtonLarge toLink="/portfolio" buttonText="Back to Portfolio" arrow="left" />
           <hr style={styles.hr} />
           <img src={undraw_site_content} className="port-img" alt="portfolio graphic" />
@@ -60,4 +59,4 @@ function BPT(props) {
 }
 
 
-export default BPT;
+export default Paradigm;

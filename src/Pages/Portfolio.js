@@ -43,6 +43,17 @@ function Portfolio(props) {
                                 />
                             </div>
                         </Zoom>
+                        <Zoom in={true}>
+                            <div>
+                                <PortfolioCard
+                                    image={bpt}
+                                    image_title="Paradigm Tech Consulting"
+                                    card_title="Paradigm Tech Consulting"
+                                    card_description="WordPress Website"
+                                    link="/paradigm"
+                                />
+                            </div>
+                        </Zoom>
                         <Zoom in={true} style={{ transitionDelay: true ? '75ms' : '0ms' }}>
                             <div>
                                 <PortfolioCard
@@ -62,17 +73,6 @@ function Portfolio(props) {
                                     card_title="UWM College of Letters and Science"
                                     card_description="Front-End Web Developer"
                                     link="/uwm"
-                                />
-                            </div>
-                        </Zoom>
-                        <Zoom in={true}>
-                            <div>
-                                <PortfolioCard
-                                    image={bpt}
-                                    image_title="UWM Behavioral Play Therapy"
-                                    card_title="UWM Behavioral Play Therapy"
-                                    card_description="WordPress Theme"
-                                    link="/bpt"
                                 />
                             </div>
                         </Zoom>

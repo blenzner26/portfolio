@@ -1,7 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow: /uwm
-Disallow: /bpt
+Disallow: /paradigm
 Disallow: /artworks
 Disallow: /portfolio
 Disallow: /tmi
