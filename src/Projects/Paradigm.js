@@ -1,12 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import BlueButtonLarge from "../Components/BlueButtonLarge.js";
+import BlueButtonLargeN from "../Components/BlueButtonLargeN.js";
 import Chip from '@material-ui/core/Chip';
 import Fade from '@material-ui/core/Fade';
 import ImageRound from "../Components/ImageRound.js";
 import undraw_site_content from '../imgs/undraw_site_content.svg';
 import paradigm_square from '../imgs/paradigm_square.jpg';
-import paradigm_screenshot from '../imgs/paradigm-screenshot.png';
+import paradigm_screenshot from '../imgs/paradigm-screenshot.jpg';
 
 const styles = {
   hr: {
@@ -46,8 +47,6 @@ function Paradigm(props) {
           <Chip style={styles.chip} label="WordPress" variant="outlined" /> <Chip style={styles.chip} label="HTML" variant="outlined" /> <Chip style={styles.chip} label="CSS" variant="outlined" /> <Chip style={styles.chip} label="WordPress" variant="outlined" /> <br />
           <BlueButtonLargeN href="https://www.paradigmtechconsulting.com/" buttonText="Visit Website" arrow="right" />
           <br />
-          <GitHubBTN href="https://github.com/blenzner26/behavioral-play-therapy-uwm" buttonText="View theme code on GitHub" arrow="right" />
-          <br /><br />
           <img src={paradigm_screenshot} width="750px" alt="Paradigm Tech Consulting website screenshot" /><br />
           <BlueButtonLarge toLink="/portfolio" buttonText="Back to Portfolio" arrow="left" />
           <hr style={styles.hr} />

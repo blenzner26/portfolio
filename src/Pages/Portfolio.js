@@ -4,7 +4,7 @@ import PortfolioCard from '../Components/PortfolioCard.js';
 import Zoom from '@material-ui/core/Zoom';
 import Fade from '@material-ui/core/Fade';
 import uwm from '../imgs/uwm.jpg';
-import bpt from '../imgs/bpt.jpg';
+import paradigm from '../imgs/paradigm-screenshot.jpg';
 import undraw_wireframe from '../imgs/undraw_wireframe.svg';
 import tmi from '../imgs/tmi_screenshot.jpg';
 import calculator from '../imgs/calculator.jpg';
@@ -32,7 +32,7 @@ function Portfolio(props) {
                     <h2 className="page-title">Portfolio</h2>
                     <p>Check out some of my recent work:</p>
                     <div className="portfolio">
-                        <Zoom in={true}>
+                        <Zoom in={true} style={{ transitionDelay: true ? '0ms' : '0ms' }}>
                             <div>
                                 <PortfolioCard
                                     image={devour}
@@ -43,10 +43,10 @@ function Portfolio(props) {
                                 />
                             </div>
                         </Zoom>
-                        <Zoom in={true}>
+                        <Zoom in={true} style={{ transitionDelay: true ? '75ms' : '0ms' }}>
                             <div>
                                 <PortfolioCard
-                                    image={bpt}
+                                    image={paradigm}
                                     image_title="Paradigm Tech Consulting"
                                     card_title="Paradigm Tech Consulting"
                                     card_description="WordPress Website"
@@ -54,7 +54,7 @@ function Portfolio(props) {
                                 />
                             </div>
                         </Zoom>
-                        <Zoom in={true} style={{ transitionDelay: true ? '75ms' : '0ms' }}>
+                        <Zoom in={true} style={{ transitionDelay: true ? '175ms' : '0ms' }}>
                             <div>
                                 <PortfolioCard
                                     image={tmi}
@@ -65,7 +65,7 @@ function Portfolio(props) {
                                 />
                             </div>
                         </Zoom>
-                        <Zoom in={true} style={{ transitionDelay: true ? '175ms' : '0ms' }}>
+                        <Zoom in={true} style={{ transitionDelay: true ? '0ms' : '0ms' }}>
                             <div>
                                 <PortfolioCard
                                     image={uwm}
